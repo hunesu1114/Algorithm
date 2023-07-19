@@ -10,6 +10,7 @@ class Solution {
                 cntOfN++;
             } tempN/=2;
         }
+        
         while(true){
             tempAns=++answer;
             while(tempAns!=0){
