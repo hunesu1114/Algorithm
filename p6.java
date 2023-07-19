@@ -9,6 +9,7 @@ class Solution {
         for(int i=2;i<=n;i++){
             arr.add((arr.get(i-1)+arr.get(i-2))%1234567);
         }
+        
         return arr.get(n);
     }
 }
